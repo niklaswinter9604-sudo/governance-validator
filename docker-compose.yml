@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  validator:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    container_name: governance-validator
+    ports:
+      - "8080:8080"
+    environment:
+      - VALIDATOR_VERSION=1.0.0
+      - PORT=8080
+    volumes:
+      - ./audit_logs:/app/audit_logs
+    restart: unless-stopped

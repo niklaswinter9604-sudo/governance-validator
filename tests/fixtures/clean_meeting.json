@@ -1,0 +1,15 @@
+{
+  "meeting_id": "MTG-2025-12-12-001",
+  "title": "Team Meeting",
+  "metadata_flags": {
+    "legal_basis": "Article_6_1_b_Contract"
+  },
+  "action_items": [
+    {
+      "task_id": "T-001",
+      "title": "Finalize API",
+      "owner_id": "P_001",
+      "deadline": "2026-01-15"
+    }
+  ]
+}
